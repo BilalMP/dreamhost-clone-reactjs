@@ -2,7 +2,6 @@ import React from 'react'
 import Container from './Container'
 
 const MakesDifferent = () => {
-    console.log('hello world')
     return (
         <Container>
             <div className="flex justify-center items-center my-10 mx-10">
@@ -17,8 +16,8 @@ const MakesDifferent = () => {
                 </div>
                 <div className="right w-1/2">
                     <div className="flex justify-around items-baseline space-x-5 pb-10">
-                        <img src="makes_dh.webp" alt="People 1" className='w-[250px] h-[250px] rounded-lg'/>
-                        <img src="makes_dh_2.webp" alt="People 2" className='w-[350px] h-[350px] rounded-lg'/>
+                        <img src="makes_dh.webp" alt="People 1" className='w-[250px] h-[250px] rounded-lg' />
+                        <img src="makes_dh_2.webp" alt="People 2" className='w-[350px] h-[350px] rounded-lg' />
                     </div>
                 </div>
             </div>
