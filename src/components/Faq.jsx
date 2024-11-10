@@ -13,7 +13,7 @@ const Faq = () => {
         <Container>
             <div className="flex px-10 my-10">
                 <div className="left w-[30%]">
-                    <h1 className='font-bold text-xl capitalize'>frequently asked questions</h1>
+                    <h1 className='text-xl font-bold capitalize'>frequently asked questions</h1>
                 </div>
                 <div className="right w-[70%]">
                     {accordionItems.map((item, index) => (

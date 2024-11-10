@@ -3,9 +3,9 @@ import Container from './Container'
 
 const AlreadyHaveWordpress = () => {
     return (
-        <div className='bg-black mt-10'>
+        <div className='mt-10 bg-black'>
             <Container>
-                <div className="flex justify-center items-center px-10">
+                <div className="flex items-center justify-center px-10">
                     <div class=" left text-left p-8 w-1/2">
                         <h1 class="text-5xl font-bold text-white">
                             Already have a WordPress <br /> site?

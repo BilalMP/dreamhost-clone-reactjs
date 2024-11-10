@@ -9,37 +9,37 @@ const LatestDeals = () => {
     return (
         <Container>
             <div className='flex flex-col items-center mb-10'>
-                <h1 className='capitalize text-2xl font-bold mb-10'>the latest deals from dreamHost</h1>
+                <h1 className='mb-10 text-2xl font-bold capitalize'>the latest deals from dreamHost</h1>
                 <div className="grid grid-cols-4 gap-6">
                     <Card>
                         <FaWordpress className='text-blue-600 w-[50px] h-[50px] mb-2' />
-                        <h2 className="text-lg capitalize font-bold mb-2">wordpress hosting</h2>
-                        <div className="flex justify-left items-center">
-                            <p className="text-gray-600 flex mr-4">Starting @ $16.95/mo</p>
+                        <h2 className="mb-2 text-lg font-bold capitalize">wordpress hosting</h2>
+                        <div className="flex items-center justify-left">
+                            <p className="flex mr-4 text-gray-600">Starting @ $16.95/mo</p>
                             <GoArrowRight />
                         </div>
                     </Card>
                     <Card>
                         <GrServerCluster className='text-blue-600 w-[50px] h-[50px] mb-2' />
-                        <h2 className="text-lg capitalize font-bold mb-2">website hosting</h2>
-                        <div className="flex justify-left items-center">
-                            <p className="text-gray-600 flex mr-4">Starting @ $2.59/mo</p>
+                        <h2 className="mb-2 text-lg font-bold capitalize">website hosting</h2>
+                        <div className="flex items-center justify-left">
+                            <p className="flex mr-4 text-gray-600">Starting @ $2.59/mo</p>
                             <GoArrowRight />
                         </div>
                     </Card>
                     <Card>
                         <SlGlobe className='text-blue-600 w-[50px] h-[50px] mb-2' />
-                        <h2 className="text-lg capitalize font-bold mb-2">.COM domain names</h2>
-                        <div className="flex justify-left items-center">
-                            <p className="text-gray-600 flex mr-4">Starting @ $9.99/mo</p>
+                        <h2 className="mb-2 text-lg font-bold capitalize">.COM domain names</h2>
+                        <div className="flex items-center justify-left">
+                            <p className="flex mr-4 text-gray-600">Starting @ $9.99/mo</p>
                             <GoArrowRight />
                         </div>
                     </Card>
                     <Card>
                         <MdKeyboardDoubleArrowRight className='text-blue-600 w-[50px] h-[50px] mb-2' />
-                        <h2 className="text-lg capitalize font-bold mb-2">free wordpress</h2>
-                        <div className="flex justify-left items-center">
-                            <p className="text-gray-600 flex mr-4">Migrations</p>
+                        <h2 className="mb-2 text-lg font-bold capitalize">free wordpress</h2>
+                        <div className="flex items-center justify-left">
+                            <p className="flex mr-4 text-gray-600">Migrations</p>
                             <GoArrowRight />
                         </div>
                     </Card>

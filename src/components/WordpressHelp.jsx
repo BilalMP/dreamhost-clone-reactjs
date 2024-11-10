@@ -37,7 +37,7 @@ const Card = ({ imageUrl, title, description }) => {
     return (
         <div className="flex flex-col justify-start mt-5">
             <img src={imageUrl} alt={title} className='w-[500px] h-[300px]' />
-            <h1 className='mt-5 font-bold capitalize text-2xl'>{title}</h1>
+            <h1 className='mt-5 text-2xl font-bold capitalize'>{title}</h1>
             <p className='text-sm font-light w-[500px] mt-5'>{description}</p>
         </div>
     )

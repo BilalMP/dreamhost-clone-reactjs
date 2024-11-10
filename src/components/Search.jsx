@@ -12,27 +12,27 @@ const Search = () => {
                 </form>
                 <div className="flex items-center ml-4 space-x-4 rounded-md shadow-md h-[70px] bg-slate-100">
                     <Card>
-                        <span className='text-blue-600 font-bold'>.biz</span>
+                        <span className='font-bold text-blue-600'>.biz</span>
                         <span className="text-gray-600">$14.99</span>
                     </Card>
                     <Card>
-                        <span className='text-green-600 font-bold'>io</span>
+                        <span className='font-bold text-green-600'>io</span>
                         <span className="text-gray-600">$39.99</span>
                     </Card>
                     <Card>
-                        <span className='text-gray-600 font-bold'>.online</span>
+                        <span className='font-bold text-gray-600'>.online</span>
                         <span className="text-gray-600">$1.99</span>
                     </Card>
                     <Card>
-                        <span className='text-gray-600 font-bold'>.club</span>
+                        <span className='font-bold text-gray-600'>.club</span>
                         <span className="text-gray-600">$9.99</span>
                     </Card>
                     <Card>
-                        <span className='text-gray-600 font-bold'>.xyz</span>
+                        <span className='font-bold text-gray-600'>.xyz</span>
                         <span className="text-gray-600">$1.99</span>
                     </Card>
                     <Card>
-                        <span className='text-blue-900 font-bold'>.com</span>
+                        <span className='font-bold text-blue-900'>.com</span>
                         <span className="text-gray-600">$9.99</span>
                     </Card>
                 </div>
@@ -43,7 +43,7 @@ const Search = () => {
 
 const Card = ({ children }) => {
     return (
-        <div className="flex items-center space-x-1 px-4 py-2 border-r-2">
+        <div className="flex items-center px-4 py-2 space-x-1 border-r-2">
             {children}
         </div>
     )

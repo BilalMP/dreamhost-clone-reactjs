@@ -5,7 +5,7 @@ const WordpressServices = () => {
     return (
         <Container>
             <div className="flex justify-center items-center mt-[70px] mx-[60px] ">
-                <div className="left w-1/2 mr-10 ">
+                <div className="w-1/2 mr-10 left ">
                     <h1 className='text-5xl font-bold capitalize'>
                         WordPress Geniuses At Your Service
                     </h1>
@@ -15,9 +15,9 @@ const WordpressServices = () => {
                     <p className='mt-[60px] font-light'>
                         Have an issue? Just let us know - when it comes to WordPress hosting, no question is ever too simple or too complex.
                     </p>
-                    <button className='bg-blue-700 text-white rounded-lg px-5 py-2 mt-10 hover:bg-blue-500'>Reach out to us</button>
+                    <button className='px-5 py-2 mt-10 text-white bg-blue-700 rounded-lg hover:bg-blue-500'>Reach out to us</button>
                 </div>
-                <div className="right w-1/2  flex justify-center items-center">
+                <div className="flex items-center justify-center w-1/2 right">
                     <img
                         src="wordpress_geniuses.webp"
                         alt="wordpress_geniuses"

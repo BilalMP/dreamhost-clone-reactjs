@@ -7,46 +7,46 @@ import { RiSecurePaymentLine } from "react-icons/ri";
 import { IoIosArrowRoundDown } from "react-icons/io";
 const UnbeatableWordpressHosting = () => {
     return (
-        <div className='bg-black py-10'>
+        <div className='py-10 bg-black'>
             <Container>
-                <div className="flex justify-center items-center px-10 py-5">
-                    <div className="left w-1/2">
-                        <p className='text-purple-900 bg-purple-400 rounded-lg p-1 max-w-fit text-xs'>Starting at $2.59/mo</p>
-                        <h1 className="font-bold capitalize text-6xl mt-3 text-white">
+                <div className="flex items-center justify-center px-10 py-5">
+                    <div className="w-1/2 left">
+                        <p className='p-1 text-xs text-purple-900 bg-purple-400 rounded-lg max-w-fit'>Starting at $2.59/mo</p>
+                        <h1 className="mt-3 text-6xl font-bold text-white capitalize">
                             unbeatable wordpress hosting
                         </h1>
-                        <p className='text-sm mt-5 text-white'>
+                        <p className='mt-5 text-sm text-white'>
                             Reliable, lightning-fast hosting solutions specifically optimized for WordPress.
                         </p>
-                        <div className="flex justify-center items-center my-10 space-x-5">
+                        <div className="flex items-center justify-center my-10 space-x-5">
                             <div className="">
                                 <FaWordpress className='text-white w-[30px] h-[30px] mb-3' />
-                                <p className='text-xs text-white font-light'>Recommended by WordPress.org</p>
+                                <p className='text-xs font-light text-white'>Recommended by WordPress.org</p>
                             </div>
                             <div className="">
                                 <FaPeopleGroup className='text-white w-[30px] h-[30px] mb-3' />
-                                <p className='text-xs text-white font-light'>In-House WordPress Experts</p>
+                                <p className='text-xs font-light text-white'>In-House WordPress Experts</p>
                             </div>
                             <div className="">
                                 <BsSpeedometer2 className='text-white w-[30px] h-[30px] mb-3' />
-                                <p className='text-xs text-white font-light'>WordPress-Optimized Servers</p>
+                                <p className='text-xs font-light text-white'>WordPress-Optimized Servers</p>
                             </div>
                             <div className="">
                                 <RiSecurePaymentLine className='text-white w-[30px] h-[30px] mb-3' />
-                                <p className='text-xs text-white font-light'>Trusted by 1.5 Million Websites</p>
+                                <p className='text-xs font-light text-white'>Trusted by 1.5 Million Websites</p>
                             </div>
                         </div>
-                        <div className="flex justify-start items-center space-x-5 my-5">
-                            <button className='bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full'>
+                        <div className="flex items-center justify-start my-5 space-x-5">
+                            <button className='px-4 py-2 font-bold text-white bg-blue-600 rounded-full hover:bg-blue-700'>
                                 Get Started
                             </button>
-                            <button className='text-white font-bold py-2 px-4 rounded-full flex justify-center items-center border-white border-2'>
+                            <button className='flex items-center justify-center px-4 py-2 font-bold text-white border-2 border-white rounded-full'>
                                 View Plans
-                                <IoIosArrowRoundDown className='text-white text-2xl'/>
+                                <IoIosArrowRoundDown className='text-2xl text-white' />
                             </button>
                         </div>
                     </div>
-                    <div className="right w-1/2">
+                    <div className="w-1/2 right">
                         <img src="wp_hero_furniture_skew.webp" alt="Furniture Wordpress" className='' />
                     </div>
                 </div>

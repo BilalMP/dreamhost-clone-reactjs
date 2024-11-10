@@ -9,9 +9,9 @@ const WordpresshostingPlans = () => {
     return (
         <Container>
             <div className="flex justify-center items-center flex-col mt-[50px]">
-                <h1 className='capitalize text-4xl font-bold'>wordpress hosting plans</h1>
-                <p className='font-light text-sm mt-7'>Fast, secure, and optimized for WordPress.</p>
-                <div className="flex bg-gray-200 rounded-full p-1 mt-10">
+                <h1 className='text-4xl font-bold capitalize'>wordpress hosting plans</h1>
+                <p className='text-sm font-light mt-7'>Fast, secure, and optimized for WordPress.</p>
+                <div className="flex p-1 mt-10 bg-gray-200 rounded-full">
                     <button
                         className={`px-4 py-2 rounded-full focus:outline-none ${selected === 'Monthly' ? 'bg-blue-500 text-white' : 'text-black'}`}
                         onClick={() => setSelected('Monthly')}
@@ -25,7 +25,7 @@ const WordpresshostingPlans = () => {
                         Prepaid
                     </button>
                 </div>
-                <div className="flex justify-center items-center space-x-10 mt-10">
+                <div className="flex items-center justify-center mt-10 space-x-10">
                     <PricingCard
                         title="WordPress Business"
                         subtitle="WORDPRESS FOR NEW SITES"
@@ -69,10 +69,10 @@ const WordpresshostingPlans = () => {
                         textColorPriceInfo="text-purple-700"
                     />
                 </div>
-                <div className="flex justify-center items-center mt-10">
-                    <button className='flex justify-center items-center border-2 border-black px-5 py-2 rounded-lg capitalize'>
+                <div className="flex items-center justify-center mt-10">
+                    <button className='flex items-center justify-center px-5 py-2 capitalize border-2 border-black rounded-lg'>
                         <span>jump to more features and tech specs</span>
-                        <IoIosArrowRoundDown className='text-lg ml-3'/>
+                        <IoIosArrowRoundDown className='ml-3 text-lg' />
                     </button>
                 </div>
             </div>
@@ -82,15 +82,15 @@ const WordpresshostingPlans = () => {
 
 const PricingCard = ({ title, subtitle, description, price, priceInfo, buttonText, learnMoreText, borderColor, textColor, bgColor, bgPriceinfo, textColorPriceInfo }) => (
     <div className={`border-t-4 ${borderColor} rounded-lg shadow-lg p-6 text-center w-[300px] h-[550px]`}>
-        <div className="mb-4 flex justify-center items-center">
+        <div className="flex items-center justify-center mb-4">
             <FaWordpressSimple className={`text-4xl ${textColor}`} />
         </div>
-        <h2 className="text-xl font-bold mb-2 capitalize">{title}</h2>
-        <h3 className="text-sm font-semibold mb-4 uppercase">{subtitle}</h3>
+        <h2 className="mb-2 text-xl font-bold capitalize">{title}</h2>
+        <h3 className="mb-4 text-sm font-semibold uppercase">{subtitle}</h3>
         <p className="text-gray-600 mb-4 font-normal h-[150px]">{description}</p>
-        <p className="text-sm font-semibold mb-3">Starting at</p>
+        <p className="mb-3 text-sm font-semibold">Starting at</p>
         <p className={`text-3xl font-bold ${textColor} mb-1`}>{price}</p>
-        <div className="flex justify-center items-center">
+        <div className="flex items-center justify-center">
             <p className={`text-xs text-gray-500 mb-4 ${textColorPriceInfo} ${bgPriceinfo} px-2 py-1 mt-3 rounded-lg max-w-fit`} >{priceInfo}</p>
         </div>
         <button className={`w-full py-2 ${bgColor} text-white font-bold rounded mb-4`}>{buttonText}</button>
