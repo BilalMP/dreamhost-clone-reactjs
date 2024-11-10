@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Container from './Container'
 import { FaWordpressSimple } from "react-icons/fa";
 import { IoIosArrowRoundDown } from "react-icons/io";
+import { Link } from 'react-router-dom';
 
 const WordpresshostingPlans = () => {
     const [selected, setSelected] = useState('Prepaid');
@@ -93,7 +94,7 @@ const PricingCard = ({ title, subtitle, description, price, priceInfo, buttonTex
             <p className={`text-xs text-gray-500 mb-4 ${textColorPriceInfo} ${bgPriceinfo} px-2 py-1 mt-3 rounded-lg max-w-fit`} >{priceInfo}</p>
         </div>
         <button className={`w-full py-2 ${bgColor} text-white font-bold rounded mb-4`}>{buttonText}</button>
-        <a href="#" className="text-sm text-blue-500">{learnMoreText}</a>
+        <Link href="#" className="text-sm text-blue-500">{learnMoreText}</Link>
     </div>
 );
 export default WordpresshostingPlans
