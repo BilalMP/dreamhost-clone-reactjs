@@ -25,12 +25,12 @@ const WebsiteHero = () => {
                         </div>
                     </div>
                     <div className="right w-1/2 flex justify-center items-center">
-                        <img src="hero.webp" alt="Ai website builder hero" className='w-[600px] h-[500px]' />
+                        <img src="/hero.webp" alt="Ai website builder hero" className='w-[600px] h-[500px]' />
                     </div>
                 </div>
                 <div className="flex justify-center items-center bg-black text-white mt-10">
                     <div className="flex flex-col justify-start items-start mr-[50px]">
-                        <FaServer className='text-white text-xl'/>
+                        <FaServer className='text-white text-xl' />
                         <p className='text-xs mt-3'>Free with hosting</p>
                     </div>
                     <div className="flex flex-col justify-start items-start mr-[50px]">
