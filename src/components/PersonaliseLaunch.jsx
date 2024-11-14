@@ -12,7 +12,7 @@ const PersonaliseLaunch = () => {
                     </p>
                 </div>
                 <div className="left w-1/2">
-                    <img src="/power.webp" alt="power image" />
+                    <img src="/power.webp" alt="power" />
                 </div>
             </div>
         </Container>
