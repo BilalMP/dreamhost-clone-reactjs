@@ -16,7 +16,7 @@ const EmailAntiSpam = () => {
                     <p className='font-light text-lg'>
                         DreamHost offers free inbound spam filtering that automatically adapts to emerging threats, keeping your inbox safe from spam, viruses, and phishing attacks
                     </p>
-                    <button className='px-5 py-2 mt-5 border-2 rounded-lg bg-gradient-to-l from-blue-500 border-0'>
+                    <button className='px-5 py-2 mt-5 rounded-lg bg-gradient-to-l from-blue-500 border-0'>
                         Get Started
                     </button>
                 </div>
