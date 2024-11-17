@@ -5,6 +5,7 @@ import Hosting from "./pages/Hosting";
 import Website from "./pages/Website";
 import Domains from "./pages/Domains";
 import Email from "./pages/Email";
+import ProServices from "./pages/ProServices";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Route path="/ai-website-builder" element={<Website />} />
       <Route path="/domains" element={<Domains />} />
       <Route path="/email" element={<Email />} />
+      <Route path="/proservices" element={<ProServices />} />
     </Routes>
   );
 }
